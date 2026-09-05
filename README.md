@@ -12,24 +12,6 @@ An enterprise-grade, cryptographic law enforcement platform engineered for **tam
 
 ---
 
-## 📋 Table of Contents
-- [Executive Overview](#-executive-overview)
-- [Key Platform Features](#-key-platform-features)
-- [System Architecture](#-system-architecture)
-- [Cryptographic Chain of Custody](#-cryptographic-chain-of-custody)
-- [Role-Based Access Matrix](#-role-based-access-matrix)
-- [Repository Structure](#-repository-structure)
-- [Quick Start & Installation](#-quick-start--installation)
-  - [Prerequisites](#prerequisites)
-  - [Option A: Local Development (npm)](#option-a-local-development-npm)
-  - [Option B: Containerized Deployment (Docker Compose)](#option-b-containerized-deployment-docker-compose)
-- [REST API Specifications](#-rest-api-specifications)
-- [System Documentation](#-system-documentation)
-- [Security & Compliance](#-security--compliance)
-- [License](#-license)
-
----
-
 ## 📑 Executive Overview
 
 Law enforcement agencies and judicial systems face critical challenges regarding digital evidence integrity, chain-of-custody logging, and unauthorized evidence tampering.
@@ -217,19 +199,6 @@ docker-compose up --build
 | `GET` | `/api/files/case/:caseId` | List evidence files for a case | 🔐 |
 | `GET` | `/api/blockchain/verify/:fileHash` | Verify cryptographic block proof & Merkle root | 🔐 |
 | `GET` | `/api/logs/:caseId` | Retrieve audit log trail for a case | 🔐 |
-
----
-
-## 📚 System Documentation
-
-Detailed technical documents are stored in the `/docs` folder and root specifications:
-* 📄 [API Documentation](docs/API_DOCUMENTATION.md)
-* 📄 [Chain of Custody Protocol](docs/CHAIN_OF_CUSTODY.md)
-* 📄 [User Guide](docs/USER_GUIDE.md)
-* 📄 [Architecture Specifications](AI-Powered-Secure-Intelligent-Police-System-Architecture.md)
-* 📄 [Functional Specifications](AI-Powered-Secure-Intelligent-Police-System-Functional-Specs.md)
-* 📄 [Project Overview](AI-Powered-Secure-Intelligent-Police-System-Project-Overview.md)
-* 📄 [System Requirements](AI-Powered-Secure-Intelligent-Police-System-Requirements.md)
 
 ---
 
